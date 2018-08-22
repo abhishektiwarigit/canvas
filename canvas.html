@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>
+canvas example
+</title>
+</head>
+<body>
+<p>testing canvas</p>
+<canvas id="myCan" height="200" width="325" style="border:1px solid red;">
+testing
+</canvas>
+</body>
+<script>
+var canvas = document.getElemetById('myCan');
+var ctx = canvas.getContext();
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0,0,150,75);
+</script>
+</html>
